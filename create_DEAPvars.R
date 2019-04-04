@@ -2,7 +2,7 @@
 #Most of this script is identical to steps outlined here: https://github.com/ABCD-STUDY/analysis-nda17/blob/master/notebooks/derived/core_demographic.md
 # Just cleaned up minor naming issues that have not been updated yet
 
-readRDS("nda18_NDA.RDS")
+nda18 <- readRDS("nda18_NDA.RDS")
 
 nda18$abcd_site = nda18$site_id_l
 nda18$subjectid = nda18$src_subject_id
